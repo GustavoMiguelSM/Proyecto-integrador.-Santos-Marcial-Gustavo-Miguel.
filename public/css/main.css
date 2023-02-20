@@ -1,0 +1,138 @@
+.form-delete{
+    display: inline-block !important;
+}
+
+/*html, body { height: 200px; margin: 0; padding: 0; }*/
+#map {
+    height: 400px;
+}
+
+img {
+    /*display: block;*/
+    max-width: 100%;
+    height: auto;
+}
+
+.content-logo img{
+    width: 200px;
+    height: 200px;
+}
+
+.content-foto-sucursal img{
+    width: 500px;
+    height: 200px;
+}
+
+.content-foto-insumo img{
+    width: 250px;
+    height: 250px;
+}
+
+.thumbnail-foto-insumo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#buscarUbicacion {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#buscarUbicacion:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.content-mesa{
+    margin: 20px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.mesa{
+    border-radius: 20px 20px 0 0;
+}
+
+.mesa-libre{
+        background-color: #2ab27b;
+}
+.mesa-ocupada{
+        background-color: tomato;
+}
+.mesa-reservada{
+        background-color: orange;
+}
+
+.mesa-fueradeservicio{
+        background-color: grey;
+}
+
+.mesa a{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: none;
+}
+
+.mesa a:hover{
+    color:black;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.caption-mesa {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    width: 100%;
+    max-height: 40%;
+    overflow: hidden;
+    font-size: 11px;
+    color: #FFF;
+    border-radius: 0 0 20px 20px;
+}
+
+.video-qrcode{
+    width:400px;
+    height:400px;
+    margin:0 auto;
+}
+
+.video-qrcode video{
+    border-radius: 50%;
+
+}
